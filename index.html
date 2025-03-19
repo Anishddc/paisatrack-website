@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Paisa Track: Nepal's #1 app for tracking income, expenses, and bills in Nepali. Download free for Android and iOS!">
+    <meta name="keywords" content="nepali finance app, expense tracker nepal, bill reminder nepal, business finance nepal, digital payments nepal">
+    <meta property="og:title" content="Paisa Track - Smart Money Management in Nepali">
+    <meta property="og:description" content="Track expenses, manage bills, and run your business - all in Nepali language!">
+    <meta property="og:image" content="images/og-image.png">
+    <title>Paisa Track - Smart Money Management in Nepali</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="nepali-text">पैसा</span>Track
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#how-it-works">How It Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Content Column -->
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="hero-content">
+                        <h1 class="display-4 fw-bold mb-4">Track Your Money the Smart Way – In Nepali!</h1>
+                        <p class="lead mb-5">Manage your finances effortlessly with Nepal's most intuitive money tracking app. Get real-time insights, bill reminders, and multi-currency support.</p>
+                        <div class="notify-form">
+                            <h3 class="h4 mb-3">Get Notified When We Launch</h3>
+                            <form action="https://docs.google.com/forms/d/1t3stoFMZBzdqCYQpFHUOGSjoKtNt4XMkfQmzqT1CGJc/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;" class="row g-2 justify-content-center justify-content-md-start">
+                                <div class="col-12 col-sm-auto flex-grow-1" style="max-width: 300px;">
+                                    <input type="email" name="entry.1234567890" class="form-control form-control-lg" placeholder="Enter your email" required>
+                                </div>
+                                <div class="col-12 col-sm-auto">
+                                    <button type="submit" class="btn btn-primary btn-lg w-100">Notify Me</button>
+                                </div>
+                                <div class="col-12">
+                                    <div id="subscribeMessage" class="mt-2 text-white" style="display: none;">Thanks for subscribing! We'll notify you when we launch.</div>
+                                </div>
+                            </form>
+                            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+                            <p class="text-white-50 small mt-2 mb-0">We'll notify you when the app launches in Q3 2025</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Phone Column -->
+                <div class="col-lg-6 d-none d-lg-block">
+                    <div class="hero-device">
+                        <div class="iphone-frame">
+                            <div class="iphone-screen">
+                                <img src="images/app-mockup.PNG" alt="Paisa Track App Interface" class="hero-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile Phone (shown only on mobile) -->
+            <div class="d-lg-none mt-2">
+                <div class="hero-device">
+                    <div class="iphone-frame">
+                        <div class="iphone-screen">
+                            <img src="images/app-mockup.PNG" alt="Paisa Track App Interface" class="hero-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features py-5" id="features">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <i class="bi bi-graph-up-arrow"></i>
+                        <h3>Income & Expense Tracking</h3>
+                        <p>Keep track of every paisa with our intuitive tracking system. Get detailed reports and insights.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <i class="bi bi-bell"></i>
+                        <h3>Bill Reminders</h3>
+                        <p>Never miss a payment again. Set up automatic reminders for bills and recurring expenses.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <i class="bi bi-currency-exchange"></i>
+                        <h3>Multi-Currency Support</h3>
+                        <p>Handle transactions in NPR, USD, and other major currencies with real-time conversion.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Multi-Currency Section -->
+    <section class="multi-currency">
+        <div class="container">
+            <h2>Multi-Currency Support</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="currency-box">
+                        <span class="currency-code">NPR</span>
+                        <h3>Nepali Rupee</h3>
+                        <p>Primary currency for all local transactions</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="currency-box">
+                        <span class="currency-code">USD</span>
+                        <h3>US Dollar</h3>
+                        <p>Track international payments and income</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="currency-box">
+                        <span class="currency-code">SAR</span>
+                        <h3>Saudi Riyal</h3>
+                        <p>Support for remittance tracking</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Tools Section -->
+    <section class="business-tools">
+        <div class="container">
+            <h2>Business Tools</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="tool-card">
+                        <i class="bi bi-file-text"></i>
+                        <h3>Invoicing</h3>
+                        <p>Create and manage professional invoices in Nepali and English</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="tool-card">
+                        <i class="bi bi-people"></i>
+                        <h3>Payroll</h3>
+                        <p>Simplify employee payments and salary tracking</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="tool-card">
+                        <i class="bi bi-box-seam"></i>
+                        <h3>Inventory</h3>
+                        <p>Track stock levels and manage product inventory</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <h3>Download App</h3>
+                        <p>Get started by downloading Paisa Track from your preferred app store</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <h3>Set Up Account</h3>
+                        <p>Create your account and customize your preferences in minutes</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <h3>Start Tracking</h3>
+                        <p>Begin recording your transactions and managing your finances efficiently</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center display-5 fw-bold mb-5">What Our Users Say</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"Paisa Track has completely changed how I manage my money. The Nepali language support makes it so easy to use!"</p>
+                        <p class="testimonial-author">- Ram Sharma</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"The multi-currency feature is perfect for tracking my remittance and local expenses in one place."</p>
+                        <p class="testimonial-author">- Sita Thapa</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"As a small business owner, the invoicing and inventory features save me hours every week."</p>
+                        <p class="testimonial-author">- Hari Pradhan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download CTA Section -->
+    <section class="download-cta py-5 text-white">
+        <div class="container text-center">
+            <h2 class="mb-4">Download Paisa Track Today</h2>
+            <p class="lead mb-5">Start managing your finances smarter with Nepal's most trusted money tracking app.</p>
+            <div class="notify-form">
+                <h4 class="h5 mb-3">Get Notified When We Launch</h4>
+                <form action="https://docs.google.com/forms/d/1t3stoFMZBzdqCYQpFHUOGSjoKtNt4XMkfQmzqT1CGJc/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;" class="row justify-content-center g-3">
+                    <div class="col-12 col-md-auto">
+                        <input type="email" name="entry.1234567890" class="form-control form-control-lg" placeholder="Enter your email" required>
+                    </div>
+                    <div class="col-12 col-md-auto">
+                        <button type="submit" class="btn btn-primary btn-lg w-100">Notify Me</button>
+                    </div>
+                    <div class="col-12">
+                        <div id="subscribeMessage" class="mt-2 text-white" style="display: none;">Thanks for subscribing! We'll notify you when we launch.</div>
+                    </div>
+                </form>
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+                <p class="text-white-50 small mt-2 mb-0">We'll notify you when the app launches in Q3 2025</p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Handle navigation scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Close mobile menu on link click
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                const navbarCollapse = document.querySelector('.navbar-collapse');
+                if (navbarCollapse.classList.contains('show')) {
+                    navbarCollapse.classList.remove('show');
+                }
+            });
+        });
+
+        // Update active nav link on scroll
+        window.addEventListener('scroll', function() {
+            let current = '';
+            document.querySelectorAll('section').forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (scrollY >= sectionTop - 100) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').substring(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+    <script src="js/main.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/subscribe.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+Required images for the website:
+
+1. app-mockup.png - Main app screenshot/mockup for hero section
+2. currency-demo.png - Screenshot of multi-currency feature
+3. app-store-badge.png - Apple App Store download badge
+4. google-play-badge.png - Google Play Store download badge
+5. esewa-logo.png - eSewa payment partner logo
+6. khalti-logo.png - Khalti payment partner logo
+7. og-image.png - Open Graph image for social sharing
+
+Note: Replace these placeholder images with actual brand assets before deployment.

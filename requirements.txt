@@ -1,0 +1,6 @@
+Flask==2.3.3
+Flask-Mail==0.9.1
+Flask-SQLAlchemy==3.0.5
+python-dotenv==1.0.0
+SQLAlchemy==2.0.20
+validate-email==1.3
